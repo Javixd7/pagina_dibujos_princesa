@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Galería de dibujos</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:#08060c;color:#eee;font:16px system-ui}
+main{width:min(900px,100%);margin:auto;padding:28px 18px}h1{font-size:clamp(1.8rem,5vw,2.5rem);margin-bottom:8px}
+.intro{color:#b9adbf;margin-bottom:28px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:#17111d;border:1px solid #493650;border-radius:16px;padding:18px}.art{height:130px;border-radius:10px;background:radial-gradient(ellipse at center,#d9a8dc 0 3%,#9a5a9d 4% 9%,#25172e 35%,#09060e 75%);display:grid;place-items:center;font-size:42px}
+h2{font-size:1.15rem;margin:14px 0 5px}.card p{color:#b9adbf;font-size:.92rem;min-height:2.7em}a{display:inline-block;padding:10px 15px;border-radius:9px;background:#68466f;color:white;text-decoration:none;font-weight:600}a:hover{background:#805789}
+footer{margin-top:30px;color:#817487;font-size:.82rem}
+</style></head><body><main>
+<h1>Galería de dibujos</h1><p class="intro">Animaciones generativas creadas con Python, NumPy y Pyodide.</p>
+<section class="grid" aria-label="Dibujos disponibles">
+<article class="card"><div class="art" aria-hidden="true">✿</div><h2>Flower</h2>
+<p>Animación generativa de una flor puntillista.</p><a href="./dibujos/flower/">Ver dibujo</a></article>
+<!-- Duplica el bloque article para agregar más dibujos. -->
+</section><footer>Una carpeta por dibujo; una tarjeta por dibujo.</footer>
+</main></body></html>
